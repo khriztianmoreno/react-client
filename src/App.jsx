@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div>
-      <h1>React Fetch</h1>
+      <h1>React Fetch Example</h1>
 
       <Form user={user} />
 
