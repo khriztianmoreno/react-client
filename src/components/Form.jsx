@@ -41,6 +41,7 @@ const Form = ({ user }) => {
           type="text"
           name="name"
           placeholder='Name'
+          required
           onChange={handleChange}
           defaultValue={user.name}
         />
@@ -50,6 +51,7 @@ const Form = ({ user }) => {
             type="email"
             name="email"
             placeholder='Email'
+            required
             onChange={handleChange}
             defaultValue={user.email}
           />
@@ -60,6 +62,7 @@ const Form = ({ user }) => {
           name="username"
           placeholder='Username'
           onChange={handleChange}
+          required
           defaultValue={user.username}
         />
       </div>
