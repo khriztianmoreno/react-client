@@ -65,7 +65,7 @@ const Form = ({ user }) => {
       </div>
 
       <button type="submit">
-        Submit
+        Crear
       </button>
     </form>
   )
